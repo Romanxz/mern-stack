@@ -1,0 +1,5 @@
+{
+    "port": 4000,
+    "mongoUri": "mongodb+srv://Roman:vape666@cluster0-xvbf6.azure.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "xxxsecretphrasexxx"
+}

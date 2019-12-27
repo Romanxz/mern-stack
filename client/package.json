@@ -1,0 +1,64 @@
+{
+  "name": "codingprofilepage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-particles-js": "^2.7.0",
+    "react-pose": "^4.0.10",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1",
+    "react-three-fiber": "^3.0.15",
+    "style-value-types": "^3.1.7",
+    "three": "^0.110.0",
+    "typeface-orbitron": "0.0.72"
+  },
+  "proxy":"http://localhost:4000",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "gh-pages": "^2.1.1",
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.19.1"
+  },
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "node_modules/.bin/eslint --max-warnings=0",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "homepage": "https://romanxz.github.io/coding-profile-page/"
+}

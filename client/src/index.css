@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Jura");
+
+@font-face {
+  font-family: 'matrix';
+  src: url(./media/fonts/matrixcode.ttf)
+}
+
+@font-face {
+  font-family: 'Bigmacca';
+  src: url(./media/fonts/bigmacca.ttf)
+}
+
+@font-face {
+  font-family: 'Aero';
+  src: url(./media/fonts/Aerospace.ttf)
+}
+
+@font-face {
+  font-family: 'CL';
+  src: url(./media/fonts/CL.ttf)
+}
+
+@font-face {
+  font-family: 'Clbold';
+  src: url(./media/fonts/CLbold.ttf)
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(./media/fonts/ralewayblack.ttf)
+}
+
+@font-face {
+  font-family: 'Etno';
+  src: url(./media/fonts/ethnocentric.ttf)
+}
+
+/* @media only screen and (orientation:portrait){
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Comfortaa",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
